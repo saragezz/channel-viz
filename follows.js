@@ -15,7 +15,7 @@
 	var defaultKey		= '4m3emn5TNRTiLEVqQvtMVyY0MLqTSP7PR6Matd4qLSFekfde', // Unique master Xively API key to be used as a default
 		defaultFeeds	= [331791669], // Comma separated array of Xively Feed ID numbers
 		applicationName	= 'arduino', // Replaces Xively logo in the header
-		dataDuration	= '90 days', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
+		dataDuration	= '90days', // Default duration of data to be displayed // ref: https://xively.com/dev/docs/api/data/read/historical_data/
 		dataInterval	= 1, // Default interval for data to be displayed (in seconds)
 		dataColor		= '1d97ab', // CSS HEX value of color to represent data (omit leading #)
 		hideForm		= 1; // To hide input form use value of 1, otherwise set to 0
